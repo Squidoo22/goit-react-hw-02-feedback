@@ -33,7 +33,7 @@ class App extends Component {
           <FeedbackOptions
             options={this.state}
             onLeaveFeedback={this.addFeedback}
-          ></FeedbackOptions>
+          />
         </Section>
         <Section title="Statistics">
           {total > 0 ? (
